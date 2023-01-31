@@ -1,0 +1,25 @@
+.header{
+    background-color: darkslategray;
+    text-align: center;
+    padding: 20px;
+
+}
+body {
+    background-color: darkgreen;
+}
+h1{
+    color: white;
+}
+h2{
+    color: black;
+}
+.column{
+    text-align: center;
+}
+.resize{
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
