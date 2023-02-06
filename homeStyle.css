@@ -1,11 +1,5 @@
-.header{
-    background-color: darkslategray;
-    text-align: center;
-    padding: 20px;
-
-}
-body {
-    background-color: darkgreen;
+body{
+    background-color: black;
 }
 h1{
     color: white;
@@ -13,13 +7,52 @@ h1{
 h2{
     color: black;
 }
-.column{
+.header{
+    background-color: darkslategray;
     text-align: center;
+    padding: 20px;
+
 }
-.resize{
-    width: 300px;
-    height: auto;
+.sydContainer {
+    text-align: center;
+    background-color: dimgray;
+    position: relative;
+    height: 850px;
+}
+.bvContainer{
+    position: relative;
+}
+.vContainer{
+    background-color: aquamarine;
+    text-align: center;
+    position: absolute;
+    width: 50%;
+    height: 850px;
+    right: 0%;
+}
+.bContainer{
+    text-align: center;
+    width: 50%;
+    height: 850px;
+    background-color: crimson;
+    position: absolute;
+    left: 0%;
+}
+.petImg{
+    position: relative;
+    max-width: 450px;
+    margin: auto;
+}
+.hiddenButton{
+    position: absolute;
+    top: 80%;
+    right: 38%;
+    display: none;
+}
+.petImg:hover > .pet{
+    background-color: black;
+    opacity: 40%;
+}
+.petImg:hover > .hiddenButton{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
